@@ -1,3 +1,5 @@
+# Make a two-player Rock-Paper-Scissors game. 
+
 def game():
     player1 = input("Player 1! Rock, paper or scissors? ")
     while player1 != "rock" and player1 != "paper" and player1 != "scissors":

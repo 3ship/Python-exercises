@@ -1,6 +1,9 @@
+"""Write a program that takes a list of numbers and makes a new list of
+only the first and last elements of the given list. For practice, write
+this code inside a function."""
+
 import random
 
-# Length of the list doesn't matter, because user doesn't see the full list.
 query = int(input("How many random numbers? "))
 
 def start(inp):
@@ -14,5 +17,3 @@ def start(inp):
     print(numberlist[0], "and", numberlist[-1])
 
 start(query)
-
-# This would be more concise with random.sample

@@ -1,4 +1,7 @@
-'''def start():
+"""Ask the user for a number and determine whether the number is prime or not.
+Take this opportunity to practice using functions.
+
+def start():
     number = int(input("Give me a whole number: "))
     numberspace = list(range(2,number))
     divisors = []
@@ -12,7 +15,7 @@
         print(number, "IS a prime number!")
         start()
 
-start()'''
+start()"""
 
 #### With two functions:
 

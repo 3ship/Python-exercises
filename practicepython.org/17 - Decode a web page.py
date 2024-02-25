@@ -1,4 +1,5 @@
-# 17 Decode a web page with requests and BeautifulSoup
+"""Decode a web page with requests and BeautifulSoup
+Output all article headlines from the website into a file."""
 
 import requests
 from bs4 import BeautifulSoup

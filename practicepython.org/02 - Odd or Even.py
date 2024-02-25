@@ -1,3 +1,7 @@
+"""Ask the user for a number. Depending on whether the number is even or odd,
+print out an appropriate message to the user. If the number is a multiple of
+4, print out a different message."""
+
 def question():
     query = int(input("Give me a number, and I'll check, if it's even or odd: "))
 
@@ -7,11 +11,13 @@ def question():
         print("Even")
     else:
         print("Odd")
-    question()  # Causes the function to be called again after completion
+    question()
     
 question()
 
-###################################
+"""Ask the user for two numbers: one number to check (call it num) and one
+number to divide by (check). If check divides evenly into num, tell that to
+the user. If not, print a different appropriate message."""
 
 start = input("Odd/Even [1] or Division [2] ? ")
 

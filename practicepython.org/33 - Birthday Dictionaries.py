@@ -1,3 +1,7 @@
+"""Create a dictionary of names and birthdays. When you run your program it
+should ask the user to enter a name, and return the birthday of that person
+back to them."""
+
 birthday_list = {
 	"Richard Stallman": ["16","03","1953"],
 	"Dennis Ritchie": ["09","09","1941"],

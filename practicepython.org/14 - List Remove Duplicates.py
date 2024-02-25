@@ -1,3 +1,6 @@
+"""Write a program (function!) that takes a list and returns a new list that
+contains all the elements of the first list minus all the duplicates."""
+
 import random
 
 def create_list():
@@ -7,7 +10,7 @@ def create_list():
     return the_list
     
 def convert(my_list):
-    return list(set(my_set))
-    print(len(my_set))
+    my_list = list(set(my_list))
+    print(my_list)
     
 convert(create_list())

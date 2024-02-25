@@ -1,3 +1,5 @@
+"""Write a password generator in Python."""
+
 from random import choice as rc
 import string
 
@@ -19,7 +21,3 @@ query = int(input("How many digits should your password have? "))
 generator(query)
 
 print(letterSample)
-
-# https://www.w3schools.com/python/ref_string_join.asp
-# https://www.practicepython.org/exercise/2014/05/28/16-password-generator.html
-# https://docs.python.org/3/library/string.html
