@@ -1,5 +1,5 @@
 a = 81
-b = 9
+b = 7
 
 def is_power(a, b):
     if a == 1:
