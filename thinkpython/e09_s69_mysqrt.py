@@ -22,14 +22,12 @@ def test_square_root(a):
     """
     print("a     mysqrt(a)          math.sqrt(a)       diff")
     print("-     ---------          ------------       ----")
-    for i in range(1, a):
-        my_sqrt = mysqrt(i)
-        realsqrt = square_root(i)
+    for i in range(1, a+1):
         # Print the results along with the right amount of whitespace:
         print(f"{i}" + (6-len(str(i)))*" " +
-              f"{my_sqrt}" + (19-len(str(my_sqrt)))*" " +
-              f"{realsqrt}" + (19-len(str(realsqrt)))*" " + 
-              f"{realsqrt - my_sqrt}")
+              f"{mysqrt(i)}" + (19-len(str(mysqrt(i))))*" " +
+              f"{square_root(i)}" + (19-len(str(square_root(i))))*" " + 
+              f"{square_root(i) - mysqrt(i)}")
 
 if __name__=='__main__':
-    test_square_root(10)
+    test_square_root(30)
