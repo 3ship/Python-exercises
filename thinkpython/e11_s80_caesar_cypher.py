@@ -23,3 +23,7 @@ def rotate_word(s, n):
 
 if __name__=='__main__':
     print(rotate_word('TestString. WithCaps!', 4))
+
+# The book suggests that this could also be done with the built-in functions
+# ord() and chr() which translate letters to numeric characters and the other
+# way around.
