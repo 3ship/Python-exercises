@@ -10,16 +10,16 @@ def rotate_word(s, n):
     """Takes the input string s and rotates every letter by n.
     Using modulo 26 to 'wrap around' the alphabet string, if necessary."""
     new_s = ""
-    for letter in s:
-        if letter in lows:
-            index = lows.find(letter)
+    for character in s:
+        if character in lows:
+            index = lows.find(character)
             new_s += lows[(index + n) % 26]
-        elif letter in caps:
-            index = caps.find(letter)
+        elif character in caps:
+            index = caps.find(character)
             new_s += caps[(index + n) % 26]
         else:
-            continue
+            new_s += character
     return new_s
 
 if __name__=='__main__':
-    print(rotate_word('TestStringWithCaps', 3))
+    print(rotate_word('TestString. WithCaps!', 4))
