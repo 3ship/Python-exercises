@@ -1,3 +1,6 @@
+# Return True, if the word entered by the user contains any of the forbidden
+# letters.
+
 def avoids(word, verboten):
     forbidden_letters = 0
     for letter in verboten:
