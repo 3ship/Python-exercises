@@ -4,6 +4,10 @@
 def middle(t):
     return t[1:-1]
 
+def chop(t):
+    t.pop(0)
+    t.pop(-1)
+
 def nested_sum(t):
     total_sum = 0
     for sequence in t:
@@ -13,5 +17,8 @@ def nested_sum(t):
 
 if __name__=='__main__':
     t = [[1, 2], [3], [4, 5, 6]]
+    c = [1, 5, 3, 7, 5, 9, 3, 0, 4]
     print(nested_sum(t))
     print(middle(t))
+    chop(c)
+    print(c)
