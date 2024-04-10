@@ -5,6 +5,6 @@ of its digits form a palindrome. Example:
 str(number)[1:5] == str(number)[-1:-5:-1]
 """
 
-for number in range(100000,999999):
+for number in range(100000,1000000):
     if str(number) == str(number)[::-1]:
         print(number)
