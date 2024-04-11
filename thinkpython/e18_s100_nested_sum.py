@@ -1,12 +1,13 @@
 # 10.1: Add up all integers from nested lists
 # 10.3: Return a list without the first and last elements of the input list
-
-def middle(t):
-    return t[1:-1]
+# 10.4: Remove the first and last element of the list and return None
 
 def chop(t):
     t.pop(0)
     t.pop(-1)
+
+def middle(t):
+    return t[1:-1]
 
 def nested_sum(t):
     total_sum = 0
