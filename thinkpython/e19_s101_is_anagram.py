@@ -24,10 +24,16 @@ def is_anagram(first, second):
             return False
     return True
 
+# The much simpler solution, if we use sorted():
+
+def alt_is_anagram(first, second):
+    if sorted(first.lower()) == sorted(second.lower()):
+        return True
+
 if __name__=='__main__':
     first = input('Enter your first word: ')
     second = input('Enter your second word: ')
-    if is_anagram(first, second):
+    if alt_is_anagram(first, second):
         print('The two words are anagrams of each other!')
     else:
         print('These are not anagrams.')
