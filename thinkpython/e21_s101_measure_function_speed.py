@@ -1,4 +1,4 @@
-# 10.8: Create a list from the words in words.txt using two different methods
+# 10.9: Create a list from the words in words.txt using two different methods
 # Measure, which method is faster
 
 import time
